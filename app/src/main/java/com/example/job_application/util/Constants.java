@@ -1,10 +1,11 @@
 package com.example.job_application.util;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Constants {
     public static FirebaseAuth mAuth = FirebaseAuth.getInstance();
-
+    public static FirebaseUser currentUser = null ;
     public static final String REGEX = "^[a-zA-Z0-9_+&*-]+(?:\\." + "[a-zA-Z0-9_+&*-]+)*@" + "(?:[a-zA-Z0-9-]+\\.)+[a-z" + "A-Z]{2,7}$";
 
 

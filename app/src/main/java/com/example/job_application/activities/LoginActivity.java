@@ -28,8 +28,11 @@ public class LoginActivity extends AppCompatActivity {
     public void loginOnClick(View view) {
         String email = ((TextInputEditText) findViewById(R.id.etEmail)).getText().toString();
         String password = ((TextInputEditText) findViewById(R.id.etPassword)).getText().toString();
-        // TODO : validate if the email is matches the regular email, if matches proceed to login, else not just return form this function
+        // TODO : Nawal =>  validate if the email is matches the regular email, if matches proceed to login, else not just return form this function
+
         login(email, password);
+
+
     }
 
     private void login(String email, String password) {

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jobin</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="password">كلمة السر</string>
+    <string name="your_password">كلمة السر الخاصة بك</string>
+    <string name="forgot_password">نسيت كلمة السر؟</string>
+    <string name="your_email">example@exmapl.com</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="reset_now">اعادة تعيين كلمة السر</string>
+    <string name="the_place_where_you_can_find_your_job">المكان الصحيح لتحصل على وظيفتك</string>
+    <string name="do_not_have_an_account">ليس لديك حساب؟</string>
+    <string name="register">انشاء حساب جديد</string>
+
+</resources>

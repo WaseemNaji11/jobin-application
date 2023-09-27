@@ -3,12 +3,12 @@
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="your_password">Your Password</string>
-    <string name="forgot_password">"Forgor your password ? "</string>
+    <string name="forgot_password">"Forgot your password ? "</string>
     <string name="your_email">example@exmapl.com</string>
     <string name="email">Email</string>
     <string name="reset_now">Reset your password</string>
     <string name="the_place_where_you_can_find_your_job">The place where you can find your job</string>
-    <string name="do_not_have_account">Don\'t have account?</string>
+    <string name="do_not_have_an_account" translatable="false">Don\'t have account?</string>
     <string name="register">Register</string>
 
 

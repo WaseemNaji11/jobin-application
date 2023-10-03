@@ -10,6 +10,20 @@ import java.util.regex.Pattern;
 
 public class Global {
 
+    public static boolean isPasswordLongEnough;
+
+    private boolean isPasswordLongEnough(String password) {
+        return password.length() > 8;
+    }
+
+    public static boolean isValidEmail(String email) {
+        // Implement email validation logic here using a regular expression or other methods.
+        // Return true if the email is valid; otherwise, return false.
+        String emailPattern = "[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}";
+
+        // Return true if the email matches the pattern, otherwise return false
+        return email.matches(emailPattern);
+    }
 
     public static boolean validField(@NonNull List<TextView> input) {
 

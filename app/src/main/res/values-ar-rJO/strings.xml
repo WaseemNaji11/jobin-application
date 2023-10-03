@@ -12,5 +12,7 @@
     <string name="the_place_where_you_can_find_your_job">المكان الصحيح لتحصل على وظيفتك</string>
     <string name="do_not_have_an_account">ليس لديك حساب؟</string>
     <string name="register">انشاء حساب جديد</string>
+    <string name="register_now">انشئ حسابك الآن</string>
+    <string name="continue_registration">متابعة</string>
 
 </resources>

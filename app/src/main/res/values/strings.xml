@@ -10,6 +10,10 @@
     <string name="the_place_where_you_can_find_your_job">The place where you can find your job</string>
     <string name="do_not_have_an_account" translatable="false">Don\'t have account?</string>
     <string name="register">Register</string>
+    <string name="register_now">Create your account now</string>
+
+    <string name="continue_registration">Continue</string>
+
 
 
 

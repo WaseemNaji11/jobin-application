@@ -13,8 +13,17 @@
     <string name="register_now">Create your account now</string>
 
     <string name="continue_registration">Continue</string>
-
-
+    <string name="invalid_password">Invalid Password</string>
+    <string name="invalid_email">"Invalid Email "</string>
+    <string name="getting_started">Getting Started</string>
+    <string name="create_account_to_continue">Create and account to continue</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="minimum_8_characters">Minimum 8 characters</string>
+    <string name="at_least_1_number">At least 1 number</string>
+    <string name="upper_and_lower_case">Upper and lower case</string>
+    <string name="match_password">Match password</string>
+    <string name="or_with">or with</string>
+    <string name="already_have_account">Already have an account !</string>
 
 
 </resources>

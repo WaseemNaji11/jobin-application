@@ -16,7 +16,7 @@
     <string name="invalid_password">Invalid Password</string>
     <string name="invalid_email">"Invalid Email "</string>
     <string name="getting_started">Getting Started</string>
-    <string name="create_account_to_continue">Create and account to continue</string>
+    <string name="create_account_to_continue">Create an account to continue</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="minimum_8_characters">Minimum 8 characters</string>
     <string name="at_least_1_number">At least 1 number</string>

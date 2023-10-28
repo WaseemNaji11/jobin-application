@@ -4,15 +4,17 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+import com.example.job_application.models.CountryDetailedInfo;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class Global {
+public class Shared {
+    public static List<CountryDetailedInfo> countryInfo = new ArrayList<>();
 
-    public static boolean isPasswordLongEnough;
 
-    private boolean isPasswordLongEnough(String password) {
+    public static boolean isPasswordLongEnough(String password) {
         return password.length() > 8;
     }
 
@@ -72,5 +74,36 @@ public class Global {
         return false;
     }
 
+   public static boolean containsUpperAndLowerCase(String input) {
+        if (input == null || input.isEmpty()) {
+            return false;
+        }
+        boolean hasUpperCase = false;
+        boolean hasLowerCase = false;
+        for (char c : input.toCharArray()) {
+            if (Character.isUpperCase(c)) {
+                hasUpperCase = true;
+            } else if (Character.isLowerCase(c)) {
+                hasLowerCase = true;
+            }
+            if (hasUpperCase && hasLowerCase) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    public static  boolean containsNumbers(String input) {
+        if (input == null || input.isEmpty()) {
+            return false;
+        }
+        for (char c : input.toCharArray()) {
+            if (Character.isDigit(c)) {
+                return true;
+            }
+        }
+        return false;
+    }
 
 }

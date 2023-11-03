@@ -24,6 +24,6 @@
     <string name="upper_and_lower_case">احرف كبيره وصغيرة</string>
     <string name="match_password">مطابقة كلمة السر</string>
     <string name="or_with">او عن طريق</string>
-    <string name="already_have_account">لديك حساب بالفعل!</string>
+    <string name="already_have_account">لديك حساب بالفعل !</string>
 
 </resources>

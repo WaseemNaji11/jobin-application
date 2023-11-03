@@ -14,5 +14,16 @@
     <string name="register">انشاء حساب جديد</string>
     <string name="register_now">انشئ حسابك الآن</string>
     <string name="continue_registration">متابعة</string>
+    <string name="invalid_password">كلمة السر غير صحيحة</string>
+    <string name="invalid_email">البريد الالكتروني غير صحيح</string>
+    <string name="getting_started">ابدأ</string>
+    <string name="create_account_to_continue">قم بإنشاء حساب للمتابعة</string>
+    <string name="confirm_password">تأكيد كلمة السر</string>
+    <string name="minimum_8_characters">8 رموز كحد اقصى</string>
+    <string name="at_least_1_number">رقم واحد كحد ادنى</string>
+    <string name="upper_and_lower_case">احرف كبيره وصغيرة</string>
+    <string name="match_password">مطابقة كلمة السر</string>
+    <string name="or_with">او عن طريق</string>
+    <string name="already_have_account">لديك حساب بالفعل!</string>
 
 </resources>

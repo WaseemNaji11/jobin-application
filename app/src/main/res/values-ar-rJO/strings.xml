@@ -13,7 +13,7 @@
     <string name="do_not_have_an_account">ليس لديك حساب؟</string>
     <string name="register">انشاء حساب جديد</string>
     <string name="register_now">انشئ حسابك الآن</string>
-    <string name="continue_registration">متابعة</string>
+    <string name="continue_registration"> متابعة</string>
     <string name="invalid_password">كلمة السر غير صحيحة</string>
     <string name="invalid_email">البريد الالكتروني غير صحيح</string>
     <string name="getting_started">ابدأ</string>
@@ -25,5 +25,13 @@
     <string name="match_password">مطابقة كلمة السر</string>
     <string name="or_with">او عن طريق</string>
     <string name="already_have_account">لديك حساب بالفعل !</string>
-
+    <string name="residance_country">بلد الاقامة</string>
+    <string name="search">بحث</string>
+    <string name="search_country">البحث عن البلد</string>
+    <string name="almost_done">اوشك على الانتهاء</string>
+    <string name="fill_your_information">املأ معلوماتك و انت جاهز لاستخدام JOBIN</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="last_name">الاسم الاخير</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="invalid_login">تسجيل الدخول غير صالح</string>
 </resources>

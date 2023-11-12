@@ -32,6 +32,7 @@
     <string name="first_name">First name</string>
     <string name="last_name">Last name</string>
     <string name="phone">Phone</string>
-    <string name="invalid_login">invalid login</string>
+    <string name="invalid_login">invalid_login</string>
+    <string name="date_of_birth">"Date of birth "</string>
 
 </resources>

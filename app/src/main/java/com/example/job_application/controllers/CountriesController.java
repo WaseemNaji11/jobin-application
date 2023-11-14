@@ -5,19 +5,12 @@ import static com.example.job_application.util.Shared.countryInfo;
 
 import android.app.Activity;
 import android.util.Log;
-import android.view.View;
 
-import androidx.recyclerview.widget.LinearLayoutManager;
-
-import com.example.job_application.activities.Register2Activity;
 import com.example.job_application.activities.SplashActivity;
-import com.example.job_application.adapters.CountryAdapter;
 import com.example.job_application.api.ApiService;
 import com.example.job_application.models.CountryDetailedInfo;
 
-import java.util.Collections;
 import java.util.Comparator;
-import java.util.Iterator;
 import java.util.List;
 
 import retrofit2.Call;

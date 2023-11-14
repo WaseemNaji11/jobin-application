@@ -15,7 +15,6 @@ import android.view.View;
 
 import com.example.job_application.R;
 import com.example.job_application.adapters.CountryAdapter;
-import com.example.job_application.controllers.CountriesController;
 import com.example.job_application.models.CountryDetailedInfo;
 import com.example.job_application.models.User;
 import com.google.android.material.textfield.TextInputEditText;

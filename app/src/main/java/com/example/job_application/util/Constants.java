@@ -16,5 +16,5 @@ public class Constants {
     public static final String PASSWORD_DOES_NOT_MATCH_MESSAGE = "Password does not match! ";
     public static final String INVALID_EMAIL_PATTERN_MESSAGE = "Please insert a valid email";
     public static final String EMPTY_FIELD_MESSAGE = "This field is required!";
-    public static String COUNTRIES_BASE_URL = "https://restcountries.com/";
+    public static final String COUNTRIES_BASE_URL = "https://restcountries.com/";
 }

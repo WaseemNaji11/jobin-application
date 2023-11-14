@@ -8,7 +8,7 @@
     <string name="email">Email</string>
     <string name="reset_now">Reset your password</string>
     <string name="the_place_where_you_can_find_your_job">The place where you can find your job</string>
-    <string name="do_not_have_an_account" translatable="false">Don\'t have account?</string>
+    <string name="do_not_have_an_account" >Don\'t have account?</string>
     <string name="register">Register</string>
     <string name="register_now">Create your account now</string>
 
@@ -33,6 +33,10 @@
     <string name="last_name">Last name</string>
     <string name="phone">Phone</string>
     <string name="invalid_login">invalid_login</string>
-    <string name="date_of_birth">"Date of birth "</string>
-
+    <string name="date_of_birth" translatable="false">"Date of birth "</string>
+    <string name="sign_up">Sign up</string>
+    <string name="Continue">Continue</string>
+    <string name="Enter_email">Enter the email address associated with your account and we&apos;ll send you a link to reset your password.</string>
+    <string name="Email_address">Example@example.com</string>
+    <string name="Reset_password">Reset Password</string>
 </resources>

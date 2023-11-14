@@ -34,4 +34,9 @@
     <string name="last_name">الاسم الاخير</string>
     <string name="phone">رقم الهاتف</string>
     <string name="invalid_login">تسجيل الدخول غير صالح</string>
+    <string name="sign_up">اشتراك</string>
+    <string name="Continue">متابعة</string>
+    <string name="Email_address">Example@example.com</string>
+    <string name="Enter_email">Enter the email address associated with your account and we&apos;ll send you a link to reset your password.</string>
+    <string name="Reset_password">Reset Password</string>
 </resources>

@@ -14,7 +14,7 @@
 
     <string name="continue_registration">Continue</string>
     <string name="invalid_password">Invalid Password</string>
-    <string name="invalid_email">"Invalid Email "</string>
+    <string name="invalid_email">Invalid Email</string>
     <string name="getting_started">Getting Started</string>
     <string name="create_account_to_continue">Create an account to continue</string>
     <string name="confirm_password">Confirm Password</string>
@@ -33,10 +33,9 @@
     <string name="last_name">Last name</string>
     <string name="phone">Phone</string>
     <string name="invalid_login">invalid_login</string>
-    <string name="date_of_birth" translatable="false">"Date of birth "</string>
+    <string name="date_of_birth">Date of birth</string>
     <string name="sign_up">Sign up</string>
-    <string name="Continue">Continue</string>
-    <string name="Enter_email">Enter the email address associated with your account and we&apos;ll send you a link to reset your password.</string>
-    <string name="Email_address">Example@example.com</string>
-    <string name="Reset_password">Reset Password</string>
+    <string name="enter_email">Enter the email address associated with your account and we ll send you a link to reset your password.</string>
+    <string name="email_address">Example@example.com</string>
+    <string name="reset_password">Reset Password</string>
 </resources>

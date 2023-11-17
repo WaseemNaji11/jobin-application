@@ -71,8 +71,6 @@ public class LoginActivity extends AppCompatActivity {
         });
         // if login is not successful
         loginTask.addOnFailureListener(result -> {
-            // TODO : Azzah ==>  show Toast shows a message R.string.invalid_login
-            // Toast.makeText(getApplicationContext(),"invalid login",Toast.LENGTH_LONG).show();
             String message = getString(R.string.invalid_login);
             Toast toast=Toast.makeText(this,message, Toast.LENGTH_SHORT);
             toast.show();

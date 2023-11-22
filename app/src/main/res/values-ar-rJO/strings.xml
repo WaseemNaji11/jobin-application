@@ -36,5 +36,7 @@
     <string name="invalid_login">تسجيل الدخول غير صالح</string>
     <string name="sign_up">اشتراك</string>
     <string name="date_of_birth">تاريخ الميلاد</string>
-
+    <string name="enter_email">ادخل عنوان البريد الالكتروني المرتبط بحسابك لارسال رابط لاعادة تعيين كلمة السر الخاصة بك</string>
+    <string name="email_address">مثال@مثال.com</string>
+    <string name="reset_password">اعادة تعيين كلمة السر</string>
 </resources>

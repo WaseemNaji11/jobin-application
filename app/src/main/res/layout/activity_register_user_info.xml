@@ -11,6 +11,9 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+
+
             <include
                 android:id="@+id/include"
                 layout="@layout/include_app_bar_back"
@@ -107,34 +110,36 @@
                     android:textColorHint="#616161"
                     tools:ignore="TextContrastCheck" />
             </com.google.android.material.textfield.TextInputLayout>
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/etDOB"
-                style="?attr/textInputOutlinedStyle"
+
+            <Button
+                android:id="@+id/btnDateOfBirth"
+                style="@style/Widget.Material3.Button.OutlinedButton.Icon"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="8dp"
-                android:hint="@string/date_of_birth"
-                app:endIconMode="custom"
-                app:errorEnabled="true"
+                android:fontFamily="@font/cairo_bold"
+                android:text="Date of birth"
+                android:onClick="showDatePicker"
+                android:textAppearance="@style/TextStyle"
+                app:icon="@drawable/google"
                 app:layout_constraintEnd_toEndOf="@+id/etPhone"
                 app:layout_constraintStart_toStartOf="@+id/etPhone"
-                app:layout_constraintTop_toBottomOf="@+id/etPhone"
-                app:placeholderText="@string/date_of_birth"
-                app:startIconDrawable="@drawable/mail">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etDOBInput"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="phone"
-                    android:editable="false"
-                    android:textColorHint="#616161"
-                    tools:ignore="TextContrastCheck" />
-            </com.google.android.material.textfield.TextInputLayout>
+                app:layout_constraintTop_toBottomOf="@+id/etPhone" />
 
 
-
+            <Button
+                android:id="@+id/btnContinue"
+                style="@style/Widget.Material3.Button.IconButton.Filled"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/cairo_bold"
+                android:onClick="continueRegistration"
+                android:text="@string/continue_registration"
+                android:textAppearance="@style/TextStyle"
+                app:layout_constraintEnd_toEndOf="@+id/btnDateOfBirth"
+                app:layout_constraintStart_toStartOf="@+id/btnDateOfBirth"
+                app:layout_constraintTop_toBottomOf="@+id/btnDateOfBirth"
+                tools:ignore="DuplicateSpeakableTextCheck" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

@@ -1,9 +1,13 @@
 package com.example.job_application.activities;
 
+import static com.example.job_application.util.Constants.currentUser;
+import static com.example.job_application.util.Constants.mAuth;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -14,6 +18,8 @@ import com.example.job_application.util.Shared;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
+
+import kotlin.jvm.internal.LocalVariableReference;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -32,8 +38,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void loginOnClick(View view) {
-        TextInputEditText etPassword  =  ((TextInputEditText) findViewById(R.id.etPasswordInput)) ;
-        TextInputEditText etEmail =  ((TextInputEditText) findViewById(R.id.etEmailInput)) ;
+        TextInputEditText etPassword  =  findViewById(R.id.etPasswordInput);
+        TextInputEditText etEmail =  findViewById(R.id.etEmailInput) ;
         String email = String.valueOf(etEmail.getText());
         String password =  String.valueOf(etPassword.getText());
         if (!Shared.isValidEmail(email)) {
@@ -54,7 +60,6 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new
                 Intent(LoginActivity.this, Register1Activity.class);
         startActivity(intent);
-
 
     }
 
